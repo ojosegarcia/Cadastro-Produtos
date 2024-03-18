@@ -1,24 +1,39 @@
-<h1 class="text-center">Cadastro de Produtos</h1>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">ID</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu ID único">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Nome</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome completo">
-</div>
-<div class="input-group">
-  <span class="input-group-text">Descrição</span>
-  <textarea class="form-control" aria-label="Descrição"></textarea>
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Preço</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite o preço">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Quantidade</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite a quantidade">
-</div>
-<div class="d-grid gap">
-  <button class="btn btn-primary" type="Salvar">Button</button>
+<div class="container bg-light p-4">
+  <div class="row">
+    <div class="col-7 m-auto"> 
+      <h1 class="text-center">Cadastro de Produtos</h1>
+      <form>
+        <div class="row mb-3">
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">ID</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu ID único">
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome completo">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="floatingTextarea" class="form-label">Descrição</label>
+          <textarea class="form-control" placeholder="Digite a descrição" id="floatingTextarea"></textarea>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Preço</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite o preço">
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput1" class="form-label">Quantidade</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite a quantidade">
+          </div>
+        </div>
+
+        <div class="d-grid gap">
+          <button class="btn btn-primary" type="button">Salvar</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
