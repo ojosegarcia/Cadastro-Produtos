@@ -1,0 +1,8 @@
+{
+    "products": [
+      { "ID": 1, "Nome": "Mouse", "Descricao": "Sem fio",  "Preco": "90", "Quantidade": "100"},
+      { "ID": 2, "Nome": "Teclado", "Descricao": "Sem fio", "Preco": "200", "Quantidade": "60"}
+    ]
+
+
+  }
